@@ -1,0 +1,34 @@
+un programma ha diversi tipi di istruzioni.
+-tipo matematico
+-tipo logico
+-tipo imperativo
+
+pseudocodice: un idea di linguaggio di programmazione che poi viene tradotto in linguaggio vero e proprio
+
+utilizziamo un aritmetica a numeri interi (integer arithmetic)
+
+#operatori
+unari, binari, ternari.. in base a quanti argomenti accettano
+"-" è un operatore unario o binario a seconda di come viene utilizzato
+-l'assegnazione è un operatore binario non matematico che assegna un determinato numero a un nome.
+##non è commutativa!!
+x=5  ok
+y=x
+5=x noooo
+
+variabile è un nome che attribiamo a una numero intero
+deve essere definita
+il nome deve cominciare necessariamente con una lettera
+###istruzioni imperative e dati booleani
+-operatori di confronto (= (ingenere usato == per il confronto = per l'assegnazione); < ; > ; =! ; =< ; => )sono binari e restituiscono un dato booleano
+2 interi -> 1 booleano
+
+
+
+
+nel nostro pseudocodice utilizzaimo "+ ; * ; - ; /(restituisce solo l'intero) ; %(restituisce il resto di una divisione)
+
+
+# il programma fra i componenti del computer
+il programma viene suddiviso nelle varie istruzioni e caricato in memoria. la memoria comincia l'elaborazione di questo tramite la CPU
+
