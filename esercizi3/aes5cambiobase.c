@@ -16,9 +16,7 @@ int inbase2(int n)
     int ris=0;
     while (n > 0)
     {
-        int k=n/potenza(10, i);
-        k=k*potenza(10, i);
-        if (k != n)
+        if ((n/potenza(10,i))*potenza(10,i) != n)
         {
             ris=ris+potenza(2, i-1);
             n=n-potenza(10, i-1);
