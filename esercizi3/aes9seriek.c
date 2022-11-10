@@ -19,11 +19,16 @@ double serie (int n, float k)
 void main()
 {
     int n;
-    float k;
-    printf("value of n ");
+    float k, q;
+    printf("numero di passaggi della serie ");
     scanf("%d", &n);
-    printf("value of k ");
+    printf("valore di k minimo ");
+    scanf("%f", &q);
+    printf("valore di k massimo ");
     scanf("%f", &k);
-    for (float i=1; i<10*k; i++)
-        printf("the value of the serie %f at the %d step is %lf\n", i/10, n, serie(n, i/10));
+    for (float i=q; i<10*k; i++)
+    {
+        double z=serie(n, i/10)/serie(2*n, i/10);
+        printf("rapporto tra s_n e s_2n con k=%f è :%lf\n", i/10, z);
+    }
 }
