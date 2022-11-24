@@ -15,7 +15,7 @@ int s_n(int n, int i)
 void main ()
 {
     int n;
-    printf("insert n ");
+    printf("valore di n");
     scanf("%d", &n);
     printf("s_n di %d = %d\n", n, s_n(n, n));
 }
