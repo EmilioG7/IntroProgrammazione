@@ -2,7 +2,7 @@
 
 void bubble_sort(int a[], int dimension)
 {
-    if (dimension<=2)
+    if (dimension=2)
     {
         if (a[0]>a[1])
         {
@@ -12,9 +12,6 @@ void bubble_sort(int a[], int dimension)
         }
     }
     else bubble_sort(a, dimension-1);
-    printf("{");
-    for (int i=0; i<dimension; i++) printf("%d, ", a[i]);
-    printf("}\n");
     int i=dimension;
     while(a[i]<a[i-1] && i>0)
     {
